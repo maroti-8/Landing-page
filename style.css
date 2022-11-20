@@ -7,14 +7,31 @@ body {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding: 0 300px 150px 300px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.header-left {
+    word-wrap: normal; 
+    width: 450px;
+}
+
+.image-placeholder {
+    background-color: gray;
+    padding: 150px;
+    text-align: center;
 }
 
 .hero-title {
@@ -32,4 +49,13 @@ ul {
     list-style: none;
     display: flex;
     gap: 16px;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
 }
