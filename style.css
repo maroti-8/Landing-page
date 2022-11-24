@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto';
 }
 
+/* SECTION-1 */
 .section-1 {
     background-color: #1F2937;
     color: #E5E7EB;
@@ -58,4 +59,92 @@ ul {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+    height: min-content;
+}
+
+/* SECTION-2 */
+
+.section-2 {
+    background-color: #F9FAF8;
+    padding: 40px 300px 40px 300px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.images-div {
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+
+.card-outer {
+    height: 300px;
+    width: 300px;
+}
+
+.card {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.subtext {
+    width: 200px;
+    word-wrap: normal;
+    text-align: center;
+}
+
+/* SECTION-3 */
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 40px 300px 40px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0 100px 0 100px;
+}
+
+.writer {
+    text-align: right;
+    padding: 0 200px 0 100px;
+}
+
+/* Section-4 */
+
+.section-4 {
+    padding: 80px 300px 80px 300px;
+}
+
+.sec4-content {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    padding: 40px 200px 40px 200px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.sec4-signup {
+    border: 2px solid white;
+    align-self: center;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px 300px 30px 300px;
+    text-align: center;
 }
